@@ -1,0 +1,95 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Jun 2022, 10:40:04 pm
+    Author     : st2
+*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.ch1 {
+    background: #4ec8a4;
+    max-width: 1000px; 
+    font-size:18px;
+ 
+}
+
+.ch2 {
+    background: #4ea4c8;
+    max-width: 1000px;    
+    font-size:18px;
+ 
+}
+
+.title {
+    color: #ffffff;
+    background-color: #205e46;
+    margin: 0px auto 15px;   
+    width: 40%;  
+    max-width: 450px;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
+.login {
+    font-size: 22px;
+    background: #259186;
+    border-color:#ae9095;    
+    padding: 10px;
+    margin-bottom: 20px;    
+    font-weight: 100;
+    width: 40%;
+}
+.login-input:focus {
+    border-color:#6e8095;
+    font-size: 28px;
+    outline: none;
+}
+.button {
+    color: #fff;
+    background: #55616f;
+    border: 0;
+    outline: 0;
+    width: calc(100% - 80px);
+    height: 42px;
+    font-size: 38px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: #666;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.title2 {
+    color: #ffffff;
+    background-color: #305e26;
+    margin: 0px auto 15px;
+    min-width: 600px; 
+    max-width: 1200px; 
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
