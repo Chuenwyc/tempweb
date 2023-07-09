@@ -43,7 +43,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     color: #ffffff;
     background-color: #205e46;
     margin: 0px auto 15px;   
-    width: 40%;  
+    width: 40%;
+    min-width: 100px;
     max-width: 450px;
     font-size: 24px;
     font-weight: 100;
@@ -52,7 +53,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 .login {
     font-size: 22px;
     background: #259186;
-    border-color:#ae9095;    
+    border-color:#ae9095; 
+    min-width: 300px; 
     padding: 10px;
     margin-bottom: 20px;    
     font-weight: 100;
